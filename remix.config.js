@@ -12,6 +12,7 @@ module.exports = {
   serverBuildPath: 'dist/worker/index.js',
   serverMainFields: ['browser', 'module', 'main'],
   serverConditions: ['worker', process.env.NODE_ENV],
+  serverBuildTarget: "vercel",
   serverDependenciesToBundle: 'all',
   serverModuleFormat: 'esm',
   serverPlatform: "neutral",
